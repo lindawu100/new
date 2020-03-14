@@ -1,0 +1,158 @@
+div{
+    width: 1200px;
+    margin: auto;
+    text-align: left;
+}
+.around-wrap{
+    background-color: #f3f3f3;
+}
+h1{
+    font-size: 30px;
+    color: #393a47;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+.around-txt{
+    padding: 0px;
+}
+.around-txt p{
+    color: #828282;
+    font-size: 16px;
+    line-height: 1.5;
+}
+hr.line1{
+    color: #1d3ab0;
+    width: 20%;
+    display: inline-block;
+    text-align: left;
+}
+.around-item{
+    display: flex;
+}
+.around1{
+    padding-left: 100px;
+    padding-right: 50px;
+}
+.around2{
+    padding-left: 50px;
+    padding-right: 100px;
+}
+.around-wrap a{
+    text-decoration: none;
+}
+.around-wrap span{
+    color: #1d3ab0;
+    border: 2px solid #1d3ab0;
+    font-weight: bold;
+    padding: 10px 40px;
+    font-size: 13px;
+}
+.around-wrap span:hover{
+    background-color: #1d3ab0;
+    color: white;
+    border: 2px solid #1d3ab0;
+}
+.around-img img{
+    width: 600px;
+}
+.meal-wrap{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    width: 1100px;
+    justify-content: space-evenly;
+}
+.meal{
+    width: 500px;
+}
+.meal p{
+    color: #828282;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.meal .menu{
+    font-size: 14px;
+    color: #828282;
+}
+.review{
+    background-image: url(https://picsum.photos/1600/1200?random=12);
+    background-attachment: fixed;
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    justify-content: center;
+}
+.line{
+    width: 100px;
+}
+hr.line2{
+    border-top: 1px solid #ffffff;
+    width: 20%;
+    /* text-align: left; */
+}
+.review-wrap{
+    width: 700px;
+}
+.review h2{
+    font-size: 30px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+}
+.review .review-wrap p{
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;   
+}
+.review .review-wrap span{
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;   
+}
+.gallery{
+    /* margin: 100px 80px; */
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.gallery img{
+    display: block;
+}
+.gallery-pic{
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gallery-group{
+    position: relative;
+    width: 300px;
+    margin: 10px;
+}
+.cover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: blue;
+    opacity: 0;
+    width: 300px;
+    height: 300px;
+}
+.flake img{
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 140px;
+    left: 140px;
+    transform: scale(0)
+}
+.gallery-group:hover .cover{
+    opacity: 0.5;
+    transition: opacity 0.5s;
+}
+.gallery-group:hover .flake img {
+    transform: scale(2);
+    transition: transform 0.5s;
+}
