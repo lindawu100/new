@@ -1,0 +1,484 @@
+.header {
+    margin: auto;
+    height: 800px;
+    background-image: url(img/header01.jpg);
+    padding-top: 100px;
+}
+
+nav a {
+    padding: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.home {
+    text-decoration: underline;
+
+}
+
+
+.header-navbar p {
+
+    font-weight: 800;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 15px;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 1.3;
+    letter-spacing: 2px;
+}
+
+.header-navbar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.header-nav a {
+    margin: 20px;
+}
+
+
+
+
+nav img {
+    width: 30px;
+    height: 30px;
+}
+.header-text-1{
+    padding-left: 300px;
+}
+
+.header-text h1 {
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 48px;
+    line-height: 1.2;
+    /* padding-left: 300px; */
+    letter-spacing: 0px;
+    padding-top: 150px;
+}
+
+
+
+.room {
+    margin-top: 100px;
+}
+
+
+.room_item {
+    display: flex;
+    justify-content: center;
+}
+
+.room_item p {
+    padding-top: 20px;
+    color: #828282;
+}
+
+.room_item .dot {
+    color: #e8e8e8;
+}
+
+.room_item .blue {
+    color: #1d3ab0;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.room_item .night {
+    font-size: 14px;
+    color: #aaaaaa;
+    font-weight: 900;
+}
+
+.room_item h3 {
+    padding-top: 20px;
+    font-weight: 900;
+}
+
+
+.rooom_item1 {
+    padding: 10px;
+}
+
+.rooom_item2 {
+    padding: 10px;
+}
+
+.rooom_item3 {
+    padding: 10px;
+}
+
+.room-h h2 {
+    padding-left: 120px;
+    padding-bottom: 50px;
+    padding-top: 0px;
+    font-weight: 900;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    color: #393a47;
+    font-size: 30px;
+    line-height: 1.3;
+    letter-spacing: 0px;
+}
+
+.header-text-1 p {
+    padding-top: 50px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 1.6;
+    letter-spacing: 0px;
+}
+
+.header-text-1 a {
+    text-decoration: none;
+
+}
+
+.price {
+    color: #7777;
+}
+
+div{
+    width: 1200px;
+    margin: auto;
+    text-align: left;
+}
+.around-wrap{
+    background-color: #f3f3f3;
+}
+h1{
+    font-size: 30px;
+    color: #393a47;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+.around-txt{
+    padding: 0px;
+}
+.around-txt p{
+    color: #828282;
+    font-size: 16px;
+    line-height: 1.5;
+}
+hr.line1{
+    color: #1d3ab0;
+    width: 20%;
+    display: inline-block;
+    text-align: left;
+}
+.around-item{
+    display: flex;
+}
+.around1{
+    padding-left: 100px;
+    padding-right: 50px;
+}
+.around2{
+    padding-left: 50px;
+    padding-right: 100px;
+}
+.around-wrap a{
+    text-decoration: none;
+}
+.around-wrap span{
+    color: #1d3ab0;
+    border: 2px solid #1d3ab0;
+    font-weight: bold;
+    padding: 10px 40px;
+    font-size: 13px;
+}
+.around-wrap span:hover{
+    background-color: #1d3ab0;
+    color: white;
+    border: 2px solid #1d3ab0;
+}
+.around-img img{
+    width: 600px;
+}
+.meal-wrap{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    width: 1100px;
+    justify-content: space-evenly;
+}
+.meal{
+    width: 500px;
+}
+.meal p{
+    color: #828282;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.meal .menu{
+    font-size: 14px;
+    color: #828282;
+}
+.review{
+    background-image: url(https://picsum.photos/1600/1200?random=12);
+    background-attachment: fixed;
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    justify-content: center;
+}
+.line{
+    width: 100px;
+}
+hr.line2{
+    border-top: 1px solid #ffffff;
+    width: 20%;
+    /* text-align: left; */
+}
+.review-wrap{
+    width: 700px;
+}
+.review h2{
+    font-size: 30px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+}
+.review .review-wrap p{
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;   
+}
+.review .review-wrap span{
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;   
+}
+.gallery{
+    /* margin: 100px 80px; */
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.gallery img{
+    display: block;
+}
+.gallery-pic{
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gallery-group{
+    position: relative;
+    width: 300px;
+    margin: 10px;
+}
+.cover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: blue;
+    opacity: 0;
+    width: 300px;
+    height: 300px;
+}
+.flake img{
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 140px;
+    left: 140px;
+    transform: scale(0)
+}
+.gallery-group:hover .cover{
+    opacity: 0.5;
+    transition: opacity 0.5s;
+}
+.gallery-group:hover .flake img {
+    transform: scale(2);
+    transition: transform 0.5s;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.map{
+    width: 1200px;
+    margin: auto;
+}
+.map .wrap{
+    width: 100%;
+    height: 0;
+    padding-bottom: 33.333333%;
+    position: relative;
+}
+.map .wrap iframe{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.contact {
+  display: flex;
+  width: 1200px;
+  margin: auto;
+  padding: 70px 0;
+  position: relative;
+  background-color: #434f53;
+}
+.contact .item{
+  width: 380px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.contact h2{
+  font-size: 16px;
+  color: #fff;
+}
+.contact h4{
+  font-size: 12px;
+  color: #828282;
+  line-height: 3;
+}
+.contact .left p{
+  font-size: 25px;
+  color: #fff;
+  line-height: 3;
+  font-family: Montserrat, sans-serif;  
+}
+.contact .left p:hover{
+  color: #337ab7;
+  transition: .3s;
+}
+
+.contact .middle .icon-group{
+  width: 100%;
+  margin-top: 12px;
+}
+
+.contact .middle .icon-group i{
+  padding-right: 28px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 10px;
+}
+
+.contact .middle .icon-group i:hover{
+  color: #337ab7;
+}
+
+.contact .right .email{
+  width: 100%;
+  cursor: text;
+  padding: 20px 0px;
+  background-color: #2D2E39;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  
+}
+.contact .right .placeholder input[type=email]{
+  font-size: 16px;
+  width: 100%;
+  background: transparent;
+  border: 0px solid transparent;
+  padding-left: 20px;
+  outline: none;
+}
+
+input[placeholder], [placeholder], *[placeholder] {
+  color: #828282 !important;
+}
+.contact .right .subscribe{
+  background-color: #1d3ab0;
+  color: #fff;
+  padding: 20px 25px;
+  text-align: center;
+  width: 110px;
+  font-size: 14px;
+  margin-left: 0px;
+}
+.contact .right .subscribe:hover{
+  background-color: #fff;
+  color: #1d3ab0;
+  cursor: pointer;
+}
+
+.contact .right .phone{
+  width: 80px;
+  height: 80px;
+  border-radius: 999em;
+  background-color: #fff;
+  margin: 10px 0;
+  position: fixed; 
+  right: 150px;
+  bottom: 80px;
+  box-sizing: border-box;
+  cursor: pointer;
+  padding: 20px;
+  box-shadow: 0 4px 10px 0 rgba(46, 58, 70, 0.35)
+}
+
+.contact .right .phone img {
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 5px;
+  opacity: 1;
+}
+
+.contact .right .phone img:hover{
+  transition: .5;
+  opacity: .7;
+}
+
+.footer{
+  width: 1200px;
+  margin: auto;
+  background-color: #eee;
+  padding: 25px 0;
+  font-size: 10px;
+  color: #828282;
+  vertical-align:top;
+}
+.footer .nav{
+  display: flex;
+  margin: auto;
+  width: 100%;
+  justify-content: center;
+  font-family: Montserrat, sans-serif;
+}
+.footer .nav a{
+  text-decoration: none;
+  padding: 0 20px;
+  white-space: nowrap;
+  color: #828282;
+
+}
+.footer .nav a:hover{
+  cursor: pointer;
+  color: #337ab7;
+  transition: .3;
+}
+.footer .copyright{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+.footer .copyright a{
+  text-decoration: none;
+  color: #828282;
+  padding: 0;
+}
+.footer a:hover{
+  cursor: pointer;
+  color: #337ab7;
+  transition: .3;
+}
+
